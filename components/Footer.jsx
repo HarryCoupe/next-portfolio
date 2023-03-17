@@ -8,10 +8,6 @@ export default function Footer(){
     const Twitter = "https://twitter.com/HarryCoupeDev";
     const GitHub = "https://github.com/HarryCoupe";
     const LinkedIn = "https://www.linkedin.com/in/hc1295/";
-
-    const handleClick = () =>{
-
-    }
     
     return(
         <footer>
