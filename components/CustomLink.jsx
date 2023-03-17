@@ -9,14 +9,11 @@ export default function CustomLink(props){
         changeSelected(page);
     }
 
-
-    return (
-            <>
-                <Link href={(href==='/home') ? '/' : props.href} passHref legacyBehavior>
-                    <a onClick={selectedText} className={styles.links}>
+    return(
+            <Link href={(href==='/home') ? '/' : props.href} passHref legacyBehavior>
+                <a onClick={selectedText} className={styles.links}>
                     {selectedPage === page ? "-" : page}
-                    </a> 
-                </Link>
-            </>
+                </a> 
+            </Link>
     )
 }

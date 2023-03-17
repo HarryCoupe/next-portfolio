@@ -1,17 +1,16 @@
+import styles from './Homecontent.module.css'
 
 export default function HomeContent(){
     return(
-        <div className="container">
-                <h1>Full Stack Developer</h1>
+            <div className={styles.test}>
+                <h1>Currently</h1>
+                <p>Making some shit</p>
 
-                <h2>Currently</h2>
-                <p>Looking for work</p>
+                <h1>Building With</h1> 
+                <p>React, Next.js & Node.js</p>
 
-                <h2>Building With</h2> 
-                <p>Next.js & Node.js</p>
-
-                <h2>Based in</h2>
+                <h1>Based in</h1>
                 <p>Nottingham, UK</p>
-        </div>
+            </div>
     )
 }

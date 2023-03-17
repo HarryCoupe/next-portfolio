@@ -4,10 +4,24 @@ import Nav from "@/components/Nav";
 
 export default function Contact(){
     return(
-            <>
-            <Header />
-            <Nav currPage="contact"/>
-            <Footer />
-            </>
+        <>
+        <div class="container">
+        <Header />
+      
+          <div class="row">
+            <div class="col">
+              <Nav currPage="contact"/>
+            </div>
+        
+            <div class="col">
+            </div>
+            
+            <div class="col">
+            </div>
+          </div>
+          
+        </div>
+        <Footer />
+      </>
     )
 }

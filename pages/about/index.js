@@ -4,10 +4,24 @@ import Nav from "@/components/Nav";
 
 export default function About(){
     return(
-            <>
-            <Header />
-            <Nav currPage="about"/>
-            <Footer />
-            </>
+        <>
+        <div class="container">
+        <Header />
+      
+          <div class="row">
+            <div class="col">
+              <Nav currPage="about"/>
+            </div>
+        
+            <div class="col">
+            </div>
+            
+            <div class="col">
+            </div>
+          </div>
+          
+        </div>
+        <Footer />
+      </>
     )
 }

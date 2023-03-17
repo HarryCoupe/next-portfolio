@@ -8,8 +8,7 @@ export default function Nav(props){
     const [selectedPage, changeSelected] = useState(`${currPage}`);
 
     return(
-            <div className="container">
-                <Stack spacing={2}>
+                <Stack spacing={2} alignItems="baseline">
                     {pages.map((page, id) => (
                         <CustomLink
                             key={id}
@@ -21,6 +20,5 @@ export default function Nav(props){
                         </CustomLink>
                     ))}
                 </Stack>
-            </div>
         )
 }
