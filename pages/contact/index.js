@@ -1,23 +1,17 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Nav from "@/components/Nav";
+import AppShell from "@/components/AppShell";
 
-export default function Contact(){
-    return(
-<>
-  <div class="container">
-    <Header />
-    <div class="row">
-      <div class="col">
-        <Nav currPage="contact"/>
+export default function Contact() {
+  return (
+    <AppShell page="contact">
+      <div className="row rowTop">
+        <h2>
+          If you&apos;d like to get in touch please email me at{" "}
+          <a href="mailto:harrycoupe@gmail.com" className="links">
+            harrycoupe@gmail.com
+          </a>{" "}
+          and I&apos;ll get back to you as soon as possible!
+        </h2>
       </div>
-
-      <div class="col"></div>
-    
-      <div class="col">
-      </div>
-    </div>
-  </div>
-  <Footer />
-</>
-)}
+    </AppShell>
+  );
+}

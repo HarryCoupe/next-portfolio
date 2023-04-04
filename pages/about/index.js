@@ -1,39 +1,42 @@
-import Footer from '@/components/Footer'
-import Header from "@/components/Header";
-import Nav from "@/components/Nav";
-import Image from 'next/image';
-import profilePicture from '../../public/self.jpg'
+import Image from "next/image";
+import profilePicture from "../../public/self.jpg";
+import AppShell from "@/components/AppShell";
 
-export default function About(){
-    return(
-<>
-  <div class="container">
-    <Header />
-    <div class="row">
-      <div class="col">
-        <Nav currPage="about"/>
+export default function About() {
+  return (
+    <AppShell page="about">
+      <div className="row rowTop">
+        <div className="col-8">
+          <h4>
+            I&apos;m Harry a Full Stack engineer based in Nottingham,
+            specialising in React and Next.js.
+            <br></br>
+            <br></br>I graduated fron University of Nottingham in 2021 in
+            Computer Science with a 2:2 where I studied many different languages
+            and systems such as SQL, Java, Haskell, C and HTML/CSS to name a
+            few.
+            <br></br>
+            <br></br>
+            Since graduation I have been working to improve my skills through
+            online courses. Using those skills I have created this website and
+            continued to work on other personal projects such as an alternate
+            profile view and reccomendation compiler for AniList.co
+            <br></br>
+            <br></br>
+            I&apos;m currently looking for work in the midlands area in web
+            development. I&apos;m very keen and willing to learn new systems and
+            develop my skills further in my personal and professional life!
+          </h4>
+        </div>
+        <div className="col">
+          <Image
+            src={profilePicture}
+            width="400"
+            alt="Picture of Harry Coupe"
+            style={{ borderRadius: "50%" }}
+          />
+        </div>
       </div>
-
-      <div class="col">
-        I am a motivated computer science graduate and full stack developer looking for
-        employment in web development. Through my education and work history, I
-        have grown in my ability to work confidently and coherently in both individual and
-        team settings. I utilize strong problem-solving skills in a responsible and professional
-        manner. I am dedicated and keen to learn new tools for both personal and
-        professional growth.
-      </div>
-    
-      <div class="col">
-        <Image 
-          src={profilePicture}
-          width="400"
-          alt="Picture of Harry Coupe"
-          style={{borderRadius: '50%'}}
-        />
-      </div>
-
-    </div>
-  </div>
-  <Footer />
-</>
-)}
+    </AppShell>
+  );
+}

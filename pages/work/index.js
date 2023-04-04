@@ -1,33 +1,16 @@
-import Header from "@/components/Header";
-import Nav from "@/components/Nav";
-import Footer from '@/components/Footer'
 import WorkItem from "@/components/WorkItem";
-import { useState } from "react";
 import inputs from "@/public/works";
+import AppShell from "@/components/AppShell";
 
-export default function Work(){
-  
-    return(
-
-    <div class="container">
-      <Header />
-        <div class="row">
-          <div class="col">
-            <Nav currPage="work"/>
-          </div>
-        <div class="col"></div>
-  
-        <div class="col"></div>
-      </div>
+export default function Work() {
+  return (
+    <AppShell page="work">
+      <div className="col"></div>
+      <div className="col"></div>
 
       {inputs.map((object, id) => (
-        <WorkItem
-          key={id}
-          inputObject={object}
-        />
+        <WorkItem key={id} inputObject={object} />
       ))}
-
-    </div>
-
-    
-)}
+    </AppShell>
+  );
+}
