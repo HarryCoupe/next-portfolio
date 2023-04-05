@@ -7,7 +7,7 @@ const inputs = [
     img: aniImg,
     title: "Profile and Reccomendations for AniList",
     info: "A Personal project I began following the completion of my portfolio website to learn more about GraphQL API and create something I would use myself. The website created will have two components. One, an alternate way to view your profile data from the website AniList.co. Two, a system that will compile your top rated anime or manga and output the most common recommendations as a way to expedite the task of deciding what to watch or read next!",
-    gitLink: "hhttps://github.com/HarryCoupe/profile-and-reccs-for-anilist",
+    gitLink: "https://github.com/HarryCoupe/profile-and-reccs-for-anilist",
     alt: "Anilist.co Logo",
   },
 
