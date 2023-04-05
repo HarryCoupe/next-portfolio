@@ -10,6 +10,11 @@ export default function AppShell(props) {
       <div className="container">
         <Head>
           <title>Harry Coupe</title>
+          <meta
+            name="description"
+            content="Harry Coupe's personal portfolio for web development projects"
+            key="desc"
+          />
         </Head>
         <Header />
         <div className="row">
