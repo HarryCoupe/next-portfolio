@@ -2,7 +2,7 @@ export default function HomeContent() {
   return (
     <div className="homeText">
       <h1>Currently</h1>
-      <p>Developing Profile and Reccomendations for AniList</p>
+      <p>Developing Profile and Recommendations for AniList</p>
 
       <h1>Building With</h1>
       <p>React, Next.js & Node.js</p>

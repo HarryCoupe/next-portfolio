@@ -8,10 +8,10 @@ export default function About() {
       <div className="row rowTop">
         <div className="col-8">
           <h4>
-            I&apos;m Harry a Full Stack engineer based in Nottingham,
-            specialising in React and Next.js.
+            I&apos;m Harry, a Full Stack engineer based in Nottingham,
+            specializing in React and Next.js.
             <br></br>
-            <br></br>I graduated fron University of Nottingham in 2021 in
+            <br></br>I graduated from University of Nottingham in 2021 in
             Computer Science with a 2:2 where I studied many different languages
             and systems such as SQL, Java, Haskell, C and HTML/CSS to name a
             few.
@@ -20,7 +20,7 @@ export default function About() {
             Since graduation I have been working to improve my skills through
             online courses. Using those skills I have created this website and
             continued to work on other personal projects such as an alternate
-            profile view and reccomendation compiler for AniList.co
+            profile view and recommendation compiler for AniList.co.
             <br></br>
             <br></br>
             I&apos;m currently looking for work in the midlands area in web
