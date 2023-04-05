@@ -12,9 +12,8 @@ export default function About() {
             specializing in React and Next.js.
             <br></br>
             <br></br>I graduated from University of Nottingham in 2021 in
-            Computer Science with a 2:2 where I studied many different languages
-            and systems such as SQL, Java, Haskell, C and HTML/CSS to name a
-            few.
+            Computer Science where I studied many different languages and
+            systems such as SQL, Java, Haskell, C and HTML/CSS to name a few.
             <br></br>
             <br></br>
             Since graduation I have been working to improve my skills through
