@@ -10,13 +10,13 @@ export default function Footer() {
 
   return (
     <div className="footer">
-      <a href={GitHub} target="_blank">
+      <a href={GitHub} target="_blank" aria-label="Github Link">
         <IconButton size="large" className="buttonColor" aria-label="Github">
           <GitHubIcon fontSize="large" />
         </IconButton>
       </a>
 
-      <a href={Twitter} target="_blank">
+      <a href={Twitter} target="_blank" aria-label="Twitter Link">
         <IconButton
           size="large"
           className="buttonColor"
@@ -26,7 +26,7 @@ export default function Footer() {
         </IconButton>
       </a>
 
-      <a href={LinkedIn} target="_blank">
+      <a href={LinkedIn} target="_blank" aria-label="LinkedIn Link">
         <IconButton
           size="large"
           className="buttonColor"
