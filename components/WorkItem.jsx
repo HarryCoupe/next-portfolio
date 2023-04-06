@@ -1,5 +1,18 @@
 import { Button } from "@mui/material";
 import Image from "next/image";
+import { styled } from "@mui/material/styles";
+
+const WorkButton = styled(Button)(({ theme }) => ({
+  fontSize: "20px",
+  color: "#757575",
+  borderColor: "#757575",
+  position: "relative",
+  "&:hover": {
+    color: "#fff",
+    backgroundColor: "#7eb5a6",
+    borderColor: "#fff",
+  },
+}));
 
 export default function WorkItem(props) {
   const { inputObject } = props;
@@ -13,7 +26,7 @@ export default function WorkItem(props) {
         {info}
       </p>
 
-      <Button
+      <WorkButton
         className="workButton"
         target="_blank"
         variant="outlined"
@@ -21,7 +34,7 @@ export default function WorkItem(props) {
         size="large"
       >
         Github Link
-      </Button>
+      </WorkButton>
     </div>
   );
 }

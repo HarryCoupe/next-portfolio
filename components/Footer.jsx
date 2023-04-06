@@ -1,7 +1,15 @@
-import { IconButton, StylesProvider } from "@mui/material";
+import { IconButton } from "@mui/material";
+import { styled } from "@mui/material/styles";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+const FooterButton = styled(IconButton)(({ theme }) => ({
+  color: "#FFFFFF",
+  "&:hover": {
+    color: "#7eb5a6",
+  },
+}));
 
 export default function Footer() {
   const Twitter = "https://twitter.com/HarryCoupeDev";
@@ -11,39 +19,21 @@ export default function Footer() {
   return (
     <div className="footer">
       <a href={GitHub} target="_blank" aria-label="Github Link">
-        <StylesProvider injectFirst>
-          <IconButton
-            size="large"
-            classes={{ contained: "buttonColor" }}
-            aria-label="Github"
-          >
-            <GitHubIcon fontSize="large" />
-          </IconButton>
-        </StylesProvider>
+        <FooterButton size="large" aria-label="Github">
+          <GitHubIcon fontSize="large" />
+        </FooterButton>
       </a>
 
       <a href={Twitter} target="_blank" aria-label="Twitter Link">
-        <StylesProvider injectFirst>
-          <IconButton
-            size="large"
-            className="buttonColor"
-            aria-label="Twitter button"
-          >
-            <TwitterIcon fontSize="large" />
-          </IconButton>
-        </StylesProvider>
+        <FooterButton size="large" aria-label="Twitter button">
+          <TwitterIcon fontSize="large" />
+        </FooterButton>
       </a>
 
       <a href={LinkedIn} target="_blank" aria-label="LinkedIn Link">
-        <StylesProvider injectFirst>
-          <IconButton
-            size="large"
-            className="buttonColor"
-            aria-label="LinkedIn button"
-          >
-            <LinkedInIcon fontSize="large" />
-          </IconButton>
-        </StylesProvider>
+        <FooterButton size="large" aria-label="LinkedIn button">
+          <LinkedInIcon fontSize="large" />
+        </FooterButton>
       </a>
     </div>
   );

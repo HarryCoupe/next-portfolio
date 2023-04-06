@@ -46,14 +46,6 @@ header {
   padding-top: 50px;
 }
 
-.buttonColor {
-  color: #fff;
-}
-
-.buttonColor:hover {
-  color: #7eb5a6;
-}
-
 .customLink {
   font-size: large;
 }
