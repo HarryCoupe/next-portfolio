@@ -12,9 +12,9 @@ This is a personal web development portfolio website created using Next.js, Boot
 
 ## Technologies Used
 
-- Next.js: a React-based framework for server-side rendering
-- Bootstrap 5: a popular CSS framework for responsive design
-- Material UI: a set of React components for faster development
+- [Next.js](https://nextjs.org): a React-based framework for server-side rendering
+- [Bootstrap 5](https://getbootstrap.com): a popular CSS framework for responsive design
+- [Material UI](https://mui.com): a set of React components for faster development
 - HTML, CSS, and JavaScript
 
 ## Getting Started
