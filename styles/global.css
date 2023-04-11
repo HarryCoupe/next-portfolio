@@ -76,16 +76,3 @@ header {
   margin-top: 0;
   margin-right: 10px;
 }
-
-.workButton {
-  font-size: 20px;
-  color: #757575;
-  border-color: #757575;
-  position: relative;
-}
-
-.workButton:hover {
-  color: #fff;
-  background-color: #7eb5a6;
-  border-color: #fff;
-}

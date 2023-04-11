@@ -27,7 +27,6 @@ export default function WorkItem(props) {
       </p>
 
       <WorkButton
-        className="workButton"
         target="_blank"
         variant="outlined"
         href={gitLink}
