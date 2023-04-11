@@ -40,3 +40,11 @@ The website can be customized by modifying the following files:
 ## Conclusion
 
 This personal web development portfolio website is built using modern web development technologies to showcase the developer's skills and experience. It is highly customizable and can be easily deployed to any hosting provider.
+
+## Credits
+
+This project was inspired by [Keita Yamada's Portfolio](https://p5aholic.me/projects/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
