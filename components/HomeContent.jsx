@@ -5,7 +5,7 @@ export default function HomeContent() {
       <p>Developing Profile and Recommendations for AniList</p>
 
       <h1>Building With</h1>
-      <p>React, Next.js & Node.js</p>
+      <p>PHP</p>
 
       <h1>Based in</h1>
       <p>Nottingham, UK</p>
